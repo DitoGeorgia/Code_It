@@ -11,7 +11,6 @@ public class Main2 {
         if (a == 6) {
             System.out.println("6");
         }
-
         if (a == 7) {
             System.out.println("7");
         }
