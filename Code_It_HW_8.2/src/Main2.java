@@ -10,20 +10,16 @@
 
 import java.util.Random;
 
-public class Main {
+public class Main2 {
     public static void main(String[] args) {
         double[] weights = new double[10];
+        double middleWeight = 0;
+        int peopleCount = 0;
+        System.out.println();
         for (int i = 0; i < weights.length; i++) {
             weights[i] = (new Random().nextDouble() * 60) + 40;
-        }
-        System.out.println();
-        double middleWeight = 0;
-        for (int i = 0; i < weights.length; i++) {
             middleWeight += weights[i];
             System.out.println(weights[i]);
-        }
-        int peopleCount = 0;
-        for (int i = 0; i < weights.length; i++) {
             if (weights[i] >= 60 && weights[i] <= 80) {
                 peopleCount++;
             }
@@ -33,4 +29,3 @@ public class Main {
         System.out.println("Кол-во людей: " + peopleCount);
     }
 }
-
