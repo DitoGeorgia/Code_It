@@ -21,12 +21,11 @@ public class Main {
         Phone phone = new Phone("595734237", "Nokia", 100);
         phone.receiveCall("Вася");
 
-        Phone phone1 = new Phone("595112233", "", 120);
+        Phone phone1 = new Phone("595112233", "Samsung", 120);
 
         Phone.madeIn = "China";
 
         System.out.println(phone.madeIn);
         System.out.println(phone1.madeIn);
-
     }
 }
