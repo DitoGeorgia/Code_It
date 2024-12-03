@@ -6,7 +6,7 @@ public class Main {
         while (true) {
             System.out.println("Введите температуру по ℃ : ");
             double temp = new Scanner(System.in).nextDouble();
-            System.out.println(temp + " ℃" + " = " +  (temp * 1.8 + 32) + " ℉ ");
+            System.out.println(temp + " ℃" + " = " + (temp * 1.8 + 32) + " ℉ ");
         }
     }
 }
