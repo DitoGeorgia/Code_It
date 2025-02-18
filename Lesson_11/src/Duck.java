@@ -19,3 +19,4 @@ public class Duck {
         Duck.footCount = footCount;
     }
 }
+
